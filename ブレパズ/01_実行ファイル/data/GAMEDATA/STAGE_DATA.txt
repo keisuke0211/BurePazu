@@ -1,0 +1,69 @@
+#========================================
+#
+# 複数ステージの情報
+#
+#========================================
+#||||||||||||||||||||||||||||||||||||||||
+#========================================
+SET_INFO
+
+#-- STAGE01 ----------------------
+	SET_STAGE
+		TIME = 20
+		CUBE = 4
+		CLEAR = 100
+		BLOCK = data\\GAMEDATA\\BLOCK\\STAGE01_DATA.csv
+		PLAYER_POS = -200 20 40
+		PLAYER_ROT = 1.57
+	END_STAGE
+	
+#-- STAGE02 ----------------------
+	SET_STAGE
+		TIME = 30
+		CUBE = 7
+		CLEAR = 300
+		BLOCK = data\\GAMEDATA\\BLOCK\\STAGE02_DATA.csv
+		PLAYER_POS = 240 20 240
+		PLAYER_ROT = 3.14
+	END_STAGE
+
+#-- STAGE03 ----------------------
+	SET_STAGE
+		TIME = 40
+		CUBE = 8
+		CLEAR = 500
+		BLOCK = data\\GAMEDATA\\BLOCK\\STAGE03_DATA.csv
+		PLAYER_POS = -240 20 240
+		PLAYER_ROT = 0.0
+	END_STAGE
+	
+#-- STAGE04 ----------------------
+	SET_STAGE
+		TIME = 60
+		CUBE = 12
+		CLEAR = 700
+		BLOCK = data\\GAMEDATA\\BLOCK\\STAGE04_DATA.csv
+		PLAYER_POS = 240 20 240
+		PLAYER_ROT = 0.0
+	END_STAGE
+	
+#-- STAGE04 ----------------------
+	SET_STAGE
+		TIME = 90
+		CUBE = 16
+		CLEAR = 1000
+		BLOCK = data\\GAMEDATA\\BLOCK\\STAGE05_DATA.csv
+		PLAYER_POS = -240 20 240
+		PLAYER_ROT = 0.0
+	END_STAGE
+	
+#-- Others ----------------------
+	ENEMY = data\\GAMEDATA\\ENEMY\\STAGE_ENEMY.csv
+
+END_INFO
+
+#========================================
+#||||||||||||||||||||||||||||||||||||||||
+#========================================
+
+END_SCRIPT

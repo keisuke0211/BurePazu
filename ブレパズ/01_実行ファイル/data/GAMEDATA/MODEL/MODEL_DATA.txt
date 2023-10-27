@@ -1,0 +1,36 @@
+#========================================
+#
+# モデルの情報
+# Author: KEISUKE OOTONO
+#
+#========================================
+#モデルの最大数
+#========================================
+NUM_MODEL = 18
+#========================================
+#ファイル名 / 影の有無
+#========================================
+MODEL = data\\MODEL\\Block\\grass.x 				0	#00 草 1×1×1
+MODEL = data\\MODEL\\Block\\grass313.x 				0	#01 草 3×1×5
+MODEL = data\\MODEL\\Block\\grass515.x 				0	#02 草 5×1×5
+MODEL = data\\MODEL\\Block\\stone.x 				0	#03 石 1×1×1
+MODEL = data\\MODEL\\Block\\WoodenBox.x 			0	#04 木箱
+MODEL = data\\MODEL\\Block\\IronBox.x 				0	#05 鉄箱
+MODEL = data\\MODEL\\Block\\bomb.x 					0	#06 爆弾
+MODEL = data\\MODEL\\Block\\fence.x 				0	#07 フェンス・横
+MODEL = data\\MODEL\\Block\\fence1.x 				0	#08 フェンス・縦
+MODEL = data\\MODEL\\Weapon\\Bullet01.x 			1	#09 弾ブロック 1×1×1
+MODEL = data\\MODEL\\Player\\Player_body.x 			1	#10 プレイヤー 体
+MODEL = data\\MODEL\\Player\\Player_head.x 			1	#11 プレイヤー 頭
+MODEL = data\\MODEL\\Player\\Player_left_arm.x 		1	#12 プレイヤー 左手
+MODEL = data\\MODEL\\Player\\Player_right_arm.x 	1	#13 プレイヤー 右手
+MODEL = data\\MODEL\\Player\\Player_left_foot.x 	1	#14 プレイヤー 左足
+MODEL = data\\MODEL\\Player\\Player_right_foot.x 	1	#15 プレイヤー 右足
+MODEL = data\\MODEL\\Enemy\\Ghost999.x 				1	#16 仮エネミー 999
+MODEL = data\\MODEL\\Effect\\Effct000.x 			0	#17 エフェクト 粒子
+
+#========================================
+#||||||||||||||||||||||||||||||||||||||||
+#========================================
+
+END
