@@ -1,0 +1,104 @@
+﻿  main.cpp
+code\main.cpp(91): warning C4838: 'float' から 'LONG' への変換には縮小変換が必要です
+code\main.cpp(91): warning C4244: '初期化中': 'float' から 'LONG' への変換です。データが失われる可能性があります。
+code\main.cpp(111): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+code\main.cpp(178): warning C4244: '引数': 'LONG' から 'FLOAT' への変換です。データが失われる可能性があります。
+code\main.cpp(267): warning C4838: 'float' から 'LONG' への変換には縮小変換が必要です
+code\main.cpp(267): warning C4244: '初期化中': 'float' から 'LONG' への変換です。データが失われる可能性があります。
+code\main.cpp(317): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+  manager.cpp
+  bg_ceiling.cpp
+  bg_side.cpp
+  blackout.cpp
+  mesh_floor.cpp
+code\object\BG\mesh_floor.cpp(158): warning C4244: '=': 'int' から 'float' への変換です。データが失われる可能性があります。
+  effectX.cpp
+  particleX.cpp
+  block.cpp
+  bullet.cpp
+  bullet_cube.cpp
+  enemy.cpp
+code\object\model\enemy.cpp(562): warning C4305: '引数': 'double' から 'FLOAT' へ切り詰めます。
+  model.cpp
+code\object\model\model.cpp(195): warning C4477: 'fscanf' : 書式文字列 '%d' には、型 'int *' の引数が必要ですが、可変個引数 1 は型 'bool *' です
+  motion.cpp
+  motion_model.cpp
+  parts.cpp
+  player.cpp
+code\object\model\player.cpp(172): warning C4101: 'pTexture': ローカル変数は 1 度も使われていません。
+code\object\model\player.cpp(171): warning C4101: 'pviewport': ローカル変数は 1 度も使われていません。
+code\object\model\player.cpp(170): warning C4101: 'pRenderDef': ローカル変数は 1 度も使われていません。
+code\object\model\player.cpp(170): warning C4101: 'pZBuffDef': ローカル変数は 1 度も使われていません。
+  object.cpp
+  object2D.cpp
+  object3D.cpp
+  コンパイル中...
+  objectX.cpp
+  crown.cpp
+  score.cpp
+  time.cpp
+  UI_title.cpp
+  fade.cpp
+  game.cpp
+code\scene\game.cpp(169): warning C4474: 'sprintf': 書式文字列に渡された引数の数が多すぎます
+  code\scene\game.cpp(169): note: プレースホルダーとそのパラメーターには 0 の可変個引数が必要ですが、1 が指定されています。
+code\scene\game.cpp(503): warning C4474: 'sprintf': 書式文字列に渡された引数の数が多すぎます
+  code\scene\game.cpp(503): note: プレースホルダーとそのパラメーターには 0 の可変個引数が必要ですが、1 が指定されています。
+  pause.cpp
+  ranking.cpp
+code\scene\ranking.cpp(124): warning C4244: '引数': 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+code\scene\ranking.cpp(454): warning C4244: '引数': 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+  title.cpp
+  tutorial.cpp
+  camera.cpp
+  csv_file.cpp
+code\system\csv_file.cpp(98): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+code\system\csv_file.cpp(106): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+code\system\csv_file.cpp(112): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+code\system\csv_file.cpp(134): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+code\system\csv_file.cpp(141): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+code\system\csv_file.cpp(147): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+code\system\csv_file.cpp(219): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+code\system\csv_file.cpp(224): warning C4244: '=': 'int' から 'float' への変換です。データが失われる可能性があります。
+code\system\csv_file.cpp(228): warning C4244: '=': 'int' から 'float' への変換です。データが失われる可能性があります。
+code\system\csv_file.cpp(232): warning C4244: '=': 'int' から 'float' への変換です。データが失われる可能性があります。
+code\system\csv_file.cpp(237): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+code\system\csv_file.cpp(249): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+code\system\csv_file.cpp(254): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+code\system\csv_file.cpp(258): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+code\system\csv_file.cpp(262): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+code\system\csv_file.cpp(355): warning C4800: 'int': ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+  input.cpp
+code\system\input.cpp(224): warning C4800: 'int': ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+code\system\input.cpp(231): warning C4800: 'int': ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+code\system\input.cpp(239): warning C4800: 'int': ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+code\system\input.cpp(247): warning C4800: 'int': ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+code\system\input.cpp(339): warning C4244: '=': 'DWORD' から 'BYTE' への変換です。データが失われる可能性があります。
+code\system\input.cpp(374): warning C4800: 'int': ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+code\system\input.cpp(382): warning C4800: 'int': ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+code\system\input.cpp(390): warning C4800: 'int': ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+code\system\input.cpp(398): warning C4800: 'int': ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+code\system\input.cpp(503): warning C4244: '=': 'DWORD' から 'WORD' への変換です。データが失われる可能性があります。
+code\system\input.cpp(540): warning C4800: 'int': ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+code\system\input.cpp(548): warning C4800: 'int': ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+code\system\input.cpp(556): warning C4800: 'int': ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+code\system\input.cpp(564): warning C4800: 'int': ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+code\system\input.cpp(676): warning C4804: '~': 演算中の 'bool' 型の使用方法が安全ではありません
+  light.cpp
+  physics.cpp
+  renderer.cpp
+code\system\renderer.cpp(54): warning C4244: '=': 'float' から 'UINT' への変換です。データが失われる可能性があります。
+code\system\renderer.cpp(55): warning C4244: '=': 'float' から 'UINT' への変換です。データが失われる可能性があります。
+code\system\renderer.cpp(193): warning C4838: 'float' から 'LONG' への変換には縮小変換が必要です
+code\system\renderer.cpp(193): warning C4244: '初期化中': 'float' から 'LONG' への変換です。データが失われる可能性があります。
+  sound.cpp
+  texture.cpp
+  font.cpp
+  コンパイル中...
+  text.cpp
+  words.cpp
+  コード生成しています。
+  All 1372 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  コード生成が終了しました。
+  000.vcxproj -> C:\Users\student\OneDrive\デスクトップ\就活関連\作品類\ブレパズ\02_開発環境\000.exe
+  000.vcxproj -> C:\Users\student\OneDrive\デスクトップ\就活関連\作品類\ブレパズ\02_開発環境\000.pdb (Full PDB)

@@ -1,0 +1,27 @@
+#========================================
+#
+# サウンドの情報
+#
+# Author: KEISUKE OOTONO
+#
+# ファイル名 / ループカウント(-1でループ) / 音量 / 種類(0:BGM 1:SE)
+#
+#========================================
+#||||||||||||||||||||||||||||||||||||||||
+#========================================
+SOUND data/SOUND/BGM/FlexibleThinking.wav		-1  0.2 0	# タイトルBGM
+SOUND data/SOUND/BGM/NiceWeatherToday.wav		-1  0.15 0	# ゲームBGM
+SOUND data/SOUND/BGM/VeryEasy.wav				-1  0.15 0	# ゲームBGM
+SOUND data/SOUND/BGM/YoureAllWarmAndFuzzy.wav	-1  0.2 0	# ランキングBGM
+SOUND data/SOUND/SE/select.wav 					0  0.3 1	# セレクトSE
+SOUND data/SOUND/SE/Cyber.wav 					0  0.2 1	# 決定SE
+SOUND data/SOUND/SE/shot.wav 					0  0.3 1	# キューブの配置音SE
+SOUND data/SOUND/SE/erase.wav 					0  1.0 1	# キューブの消滅音SE
+SOUND data/SOUND/SE/hit.wav 					0  0.8 1	# ダメージSE
+SOUND data/SOUND/SE/score.wav 					0  0.5 1	# スコア加算SE
+
+#========================================
+#||||||||||||||||||||||||||||||||||||||||
+#========================================
+
+END

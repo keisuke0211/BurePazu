@@ -1,0 +1,195 @@
+#========================================
+#
+# •¶Žš‚Ìî•ñ
+# Author: KEISUKE OOTONO
+#
+#========================================
+# s”
+#========================================
+NUM_ROW = 13
+
+#========================================
+# •¶Žšî•ñ
+#========================================
+SET_TEXT
+
+// -- ‚ s ------------------------------------
+SET_ROW
+	NUM_CONV = 3
+	NUM_WORDS = 6
+	
+	SET_WORDS
+		WOARDS	‚ ,‚¢,‚¤,‚¦,‚¨,¦
+		CONV	‚Ÿ,‚¡,‚£,‚¥,‚§,¦
+		CONV	ƒA,ƒC,ƒE,ƒG,ƒI,¦
+		CONV	ƒ@,ƒB,ƒD,ƒF,ƒH,¦
+	END_WORDS
+
+END_ROW
+
+// -- ‚©s ------------------------------------
+SET_ROW
+	NUM_CONV = 3
+	NUM_WORDS = 6
+	
+	SET_WORDS
+		WOARDS	‚©,‚«,‚­,‚¯,‚±,¦
+		CONV	‚ª,‚¬,‚®,‚°,‚²,¦
+		CONV	ƒJ,ƒL,ƒN,ƒP,ƒR,¦
+		CONV	ƒK,ƒM,ƒO,ƒQ,ƒS,¦
+	END_WORDS
+
+END_ROW
+
+// -- ‚³s ------------------------------------
+SET_ROW
+	NUM_CONV = 3
+	NUM_WORDS = 6
+	
+	SET_WORDS
+		WOARDS	‚³,‚µ,‚·,‚¹,‚»,¦
+		CONV	‚´,‚¶,‚¸,‚º,‚¼,¦
+		CONV	ƒT,ƒV,ƒX,ƒZ,ƒ\,¦
+		CONV	ƒU,ƒW,ƒY,ƒ[,ƒ],¦
+	END_WORDS
+
+END_ROW
+
+// -- ‚½s ------------------------------------
+SET_ROW
+	NUM_CONV = 3
+	NUM_WORDS = 6
+	
+	SET_WORDS
+		WOARDS	‚½,‚¿,‚Â,‚Ä,‚Æ,¦
+		CONV	‚¾,‚À,‚Ã,‚Å,‚Ç,¦
+		CONV	ƒ^,ƒ`,ƒc,ƒe,ƒg,¦
+		CONV	ƒ_,ƒa,ƒd,ƒf,ƒh,¦
+	END_WORDS
+
+END_ROW
+
+// -- ‚Ès ------------------------------------
+SET_ROW
+	NUM_CONV = 1
+	NUM_WORDS = 6
+	
+	SET_WORDS
+		WOARDS	‚È,‚É,‚Ê,‚Ë,‚Ì,¦
+		CONV	ƒi,“ñ,ƒk,ƒl,ƒm,¦
+	END_WORDS
+
+END_ROW
+
+// -- ‚Ís ------------------------------------
+SET_ROW
+	NUM_CONV = 5
+	NUM_WORDS = 6
+	
+	SET_WORDS
+		WOARDS	‚Í,‚Ð,‚Ó,‚Ö,‚Ù,¦
+		CONV	‚Î,‚Ñ,‚Ô,‚×,‚Ú,¦
+		CONV	‚Ï,‚Ò,‚Õ,‚Ø,‚Û,¦
+		CONV	ƒn,ƒq,ƒt,‚Ö,ƒz,¦
+		CONV	ƒo,ƒr,ƒu,‚×,ƒ{,¦
+		CONV	ƒp,ƒs,ƒv,‚Ø,ƒ|,¦
+	END_WORDS
+
+END_ROW
+
+// -- ‚Üs ------------------------------------
+SET_ROW
+	NUM_CONV = 1
+	NUM_WORDS = 6
+	
+	SET_WORDS
+		WOARDS	‚Ü,‚Ý,‚Þ,‚ß,‚à,¦
+		CONV	ƒ},ƒ~,ƒ€,ƒ,ƒ‚,¦
+	END_WORDS
+
+END_ROW
+
+// -- ‚âs ------------------------------------
+SET_ROW
+	NUM_CONV = 3
+	NUM_WORDS = 4
+	
+	SET_WORDS
+		WOARDS	‚â,‚ä,‚æ,¦
+		CONV	‚á,‚ã,‚å,¦
+		CONV	ƒ„,ƒ†,ƒˆ,¦
+		CONV	ƒƒ,ƒ…,ƒ‡,¦
+	END_WORDS
+
+END_ROW
+
+// -- ‚çs ------------------------------------
+SET_ROW
+	NUM_CONV = 1
+	NUM_WORDS = 6
+	
+	SET_WORDS
+		WOARDS	‚ç,‚è,‚é,‚ê,‚ë,¦
+		CONV	ƒ‰,ƒŠ,ƒ‹,ƒŒ,ƒ,¦
+	END_WORDS
+
+END_ROW
+
+// -- ‚ís ------------------------------------
+SET_ROW
+	NUM_CONV = 1
+	NUM_WORDS = 4
+	
+	SET_WORDS
+		WOARDS	‚í,‚ð,‚ñ,¦
+		CONV	ƒ,ƒ’,ƒ“,¦
+	END_WORDS
+
+END_ROW
+
+// -- ‰pŒê ------------------------------------
+SET_ROW
+	NUM_CONV = 3
+	NUM_WORDS = 27
+	
+	SET_WORDS
+		WOARDS	A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,¦
+		CONV	a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,¦
+		CONV	‚`,‚a,‚b,‚c,‚d,‚e,‚f,‚g,‚h,‚i,‚j,‚k,‚l,‚m,‚n,‚o,‚p,‚q,‚r,‚s,‚t,‚u,‚v,‚w,‚x,‚y,¦
+		CONV	‚,‚‚,‚ƒ,‚„,‚…,‚†,‚‡,‚ˆ,‚‰,‚Š,‚‹,‚Œ,‚,‚Ž,‚,‚,‚‘,‚’,‚“,‚”,‚•,‚–,‚—,‚˜,‚™,‚š,¦
+	END_WORDS
+
+END_ROW
+
+// -- ”Žš ------------------------------------
+SET_ROW
+	NUM_CONV = 1
+	NUM_WORDS = 10
+	
+	SET_WORDS
+		WOARDS	0,1,2,3,4,5.6,7,8,9,¦
+		CONV	‚O,‚P,‚Q,‚R,‚S,‚T.‚U,‚V,‚W,‚X,I,H,,,ò,•,—,^,¦
+	END_WORDS
+
+END_ROW
+
+// -- ‹L† ------------------------------------
+SET_ROW
+	NUM_CONV = 2
+	NUM_WORDS = 13
+	
+	SET_WORDS
+		WOARDS	!,?,$,&,\,#,@,/,%,>,=,<,¦
+		CONV	I,H,,•,,”,—,^,“,„,,ƒ,¦
+		CONV	ª,«,©,¨,Y,‡,‰,Š,ô,™,ž,›,¦
+	END_WORDS
+
+END_ROW
+
+END_TEXT
+
+#========================================
+#|||||||||||||||||||||||||||||||||||||||||
+#========================================
+
+END_SCRIPT
